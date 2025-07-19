@@ -1,0 +1,77 @@
+.fitness-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: var(--spacing-xl); 
+    padding: var(--spacing-lg);
+}
+
+.metric-card {
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 8px 16px var(--shadow-color-light); 
+    padding: var(--spacing-xl);
+    text-align: center;
+    transition: transform var(--transition-speed) var(--transition-timing), box-shadow var(--transition-speed) var(--transition-timing);
+    cursor: pointer; 
+}
+
+.metric-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px var(--shadow-color-medium); 
+}
+
+.metric-title {
+    font-size: var(--font-size-md);
+    color: var(--light-text-color);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 500;
+}
+
+.metric-value {
+    font-size: var(--font-size-xl); 
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.metric-unit {
+    font-size: var(--font-size-sm);
+    color: var(--light-text-color);
+    font-weight: 400;
+}
+
+
+.metric-card.steps .metric-value {
+    color: var(--accent-color); 
+}
+
+.metric-card.heart-rate .metric-value {
+    color: var(--danger-color); 
+}
+
+.metric-card.sleep-duration .metric-value {
+    color: var(--primary-color); 
+}
+
+
+.dashboard-heading {
+    text-align: center;
+    margin-bottom: var(--spacing-xxl); 
+    color: var(--text-color);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    position: relative;
+    padding-bottom: var(--spacing-sm);
+}
+
+.dashboard-heading::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px; 
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}

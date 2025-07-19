@@ -1,0 +1,51 @@
+:root {
+   
+    --primary-color: #007bff;   
+    --secondary-color: #6c757d;   
+    --accent-color: #20c997;   
+    --danger-color: #dc3545;     
+    --background-color: #e9ecef; 
+    --surface-color: #ffffff;     
+    --text-color: #343a40;       
+    --light-text-color: #868e96;  
+    --border-color: #ced4da;     
+    --shadow-color-light: rgba(0, 0, 0, 0.08); 
+    --shadow-color-medium: rgba(0, 0, 0, 0.15); 
+    --gradient-start: #007bff; 
+    --gradient-end: #0056b3;   
+
+    --font-family-sans-serif: 'Inter', 'Helvetica Neue', Arial, sans-serif; 
+    --font-family-monospace: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+    --font-size-base: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1.125rem; 
+    --font-size-lg: 1.5rem;  
+    --font-size-xl: 2rem;     
+    --font-size-xxl: 2.5rem;  
+    --font-size-display: 3rem; 
+
+    --line-height-base: 1.6;
+    --heading-line-height: 1.2;
+
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 3rem;
+    --spacing-xxxl: 4rem; 
+
+    --border-radius-sm: 0.25rem;
+    --border-radius-md: 0.5rem;
+    --border-radius-lg: 0.75rem;
+    --border-radius-circle: 50%; 
+
+    --transition-speed: 0.3s;
+    --transition-timing: ease-in-out;
+
+   
+    --z-index-low: 10;
+    --z-index-medium: 100;
+    --z-index-high: 1000;
+}
